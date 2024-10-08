@@ -1,0 +1,20 @@
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Add custom styles for scrolling */
+.hide-scrollbar {
+  overflow-x: auto;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
